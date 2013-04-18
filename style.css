@@ -1,11 +1,36 @@
-p, h3{
+p{
 	color:#00f0ff;
 	font-size:2em;
+	text-decoration:underline;
 }
-.spotlight{
-	color:#114422;
+p a{
+	color:#fff;
+}
+
+h1{
+	color:00ff00;
+	text-transform:uppercase;
+	margin:20px;
+	padding: 40px;
+	border: 10px #4f8 double;
+}
+h2{
+	background-color:#999999;
 }
 
 body{
- background:gray;
+	background:gray;
+ 	font-family:sans-serif;
+ 	font-size:2em;
+}
+
+#intro{
+	color:#006789;
+}
+.spotlight{
+	background-color:#aec;
+}
+
+a:hover{
+	background-color:#369;
 }
